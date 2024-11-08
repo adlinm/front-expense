@@ -1,0 +1,69 @@
+/* SummaryPage.css */
+
+.summary-balance {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  .summary-spend {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+.summary-container {
+    background: linear-gradient(45deg, #fff0f6, #ffdeeb); /* Pink gradient */
+    color: #333; /* Dark text for readability */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .summary-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Dark text */
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  .summary-content {
+    font-size: 16px;
+    color: #333; /* Dark text */
+  }
+  
+  .summary-select-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .summary-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .summary-table th, .summary-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .summary-table th {
+    background-color: #f06595; /* Darker pink */
+    color: white;
+  }
+  
+  .summary-table tr:nth-child(even) {
+    background-color: #ffe3ec; /* Lighter pink */
+  }
+  
+  .summary-table tr:hover {
+    background-color: #ffd4e4; /* Slightly darker on hover */
+  }
+  

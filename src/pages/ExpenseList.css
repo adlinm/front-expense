@@ -1,0 +1,46 @@
+/* ExpenseList.css */
+.expense-list {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.expense-list h2 {
+  text-align: center;
+  color: #333;
+}
+
+.expense-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.expense-table th,
+.expense-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.expense-table th {
+  background-color: #f06595;;
+  color: white;
+}
+
+.expense-table tr:nth-child(even) {
+  background-color: #ffe3ec;;
+}
+
+.expense-table tr:hover {
+  background-color: #ffd4e4;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
